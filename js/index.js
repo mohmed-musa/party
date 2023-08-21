@@ -76,7 +76,7 @@ window.onload = () => {
 
 
 var maxLength = 100;
-$('textarea').keyup(() => {
+$('textarea').keyup(function() {
   var length = $(this).val().length;
   var AmountLeft = maxLength-length;
   if(AmountLeft<=0)
