@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Home {
+    min-height: 100vh;
+    background-image: url(../imgs/206229021-in-a-vibrant-nightclub-people-dance-joyfully-at-a-music-festival-their-silhouettes-illuminated-by.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+.HomeOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+#Menu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5rem;
+}
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+#Home h2{
+    margin-top: 12rem;
+    font-size: 4rem;
+    
+}
+
+
+.sidenav{
+    background-color: #414658;
+}
+
+.sidenav a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 4rem;
+    font-size: 4rem;
+    margin-left: 6rem;
+}
+
+#home-content {
+    transition: margin-left .5s;
+    padding: 3rem;
+}
+
+
+
+
+#Duration{
+    margin: 5rem auto;
+    width: 50%;
+    
+}
+
+#Duration h3{
+    padding: 1.5rem;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: rgb(255, 252, 252);
+}
+
+
+#Duration .about{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+
+
+#count {
+    background-image: url(../imgs/glowing-stage-light-illuminates-cheering-rock-fans-generated-by-ai_188544-37983.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 10rem;
+    color: #FFF;
+
+}
+#count .count-overlay {
+    padding: 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 52, 0.451);
+
+}
+.time {
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    padding: 3rem;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 2rem;
+
+
+}
+
+#contact-us {
+    margin: 5rem 0;
+}
+#contact-us .container
+ .header h2 {
+    color:#444;
+    font-weight: bold;
+}
+#contact-us .container
+ .header p {
+    text-align: center;
+    padding: 1.5rem 0;
+    color:#777;
+    font-weight: 300;
+}
+
+
+#contact-us .row 
+.col-md-6 h3 {
+    color:#444;
+    font-size: 1.5rem;
+    font-weight: bold;
+  
+}
+#contact-us .row 
+.col-md-6 p {
+    font-size: 1rem;
+    line-height: 2rem;
+    color:#777;
+  
+}
+
+#contact-us .icons .mail {
+    color:#D62E33 !important;
+    cursor: pointer;
+}
+
+#contact-us .social-list i {
+    margin-right: 10px;
+    border:1px solid #999;
+    width:40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    margin-bottom: 2rem;
+}
+#contact-us .social-list i:hover {
+    background-color: #D62E33;
+    color: #FFF;
+}
+
+#contact-us .right input {
+    margin: 1rem 0;
+
+}
+#chars{
+    font-size: 1.5rem;
+    color: #D62E33;
+}
